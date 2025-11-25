@@ -1,150 +1,132 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="author"
-      content="Franco de Jesus Sanchez, Facundo Alejandro Heredia, Ignacio Guanca, Carlos Mario Vischi"
-    />
-    <meta name="keywords" content="trello, equipo, proyecto numero 1" />
-    <meta
-      name="description"
-      content="Aqui podras encontrar los mejores productos tecnologicos, promociones inmejorables y un equipo que acompañara en todo lo que necesites."
-    />
-    <title>PC Compras</title>
-    <link rel="shortcut icon" href="./assets/img/1.png" type="image/x-icon" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="./css/style.css" />
-  </head>
-  <body>
-    <header>
-      <nav class="navbar navbar-expand-lg bg-primary">
-        <div class="container">
-          <a class="navbar-brand" href="./index.html">PC-Compras</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./pages/productos.html">Productos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Nosotros</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contacto</a>
-              </li>
-            </ul>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author"
+    content="Franco de Jesus Sanchez, Facundo Alejandro Heredia, Ignacio Guanca, Carlos Mario Vischi" />
+  <meta name="keywords" content="trello, equipo, proyecto numero 1" />
+  <meta name="description"
+    content="Aqui podras encontrar los mejores productos tecnologicos, promociones inmejorables y un equipo que acompañara en todo lo que necesites." />
+  <title>PC Compras</title>
+  <link rel="shortcut icon" href="./assets/img/1.png" type="image/x-icon" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-primary">
+      <div class="container">
+        <a class="navbar-brand" id="logo" href="./index.html">PC-Compras</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/productos.html">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h1 class="text-center">Categorias de Productos</h1>
+      <hr class="m-3" />
+      <div class="row d-flex justify-content-center">
+        <div class="card col-3" style="width: 18rem">
+          <img src="./assets/img/IconoComputadora.png" class="card-img-top" alt="icono de computadora" />
+          <div class="card-body">
+            <h5 class="card-title">Computadoras</h5>
+            <p class="card-text">
+              Las mejores ofertas de computadoras las encontras en PC-Ofertas.
+            </p>
+          </div>
+          <div class="card-body">
+            <a href="#" class="card-link">Ver Ofertas</a>
           </div>
         </div>
-      </nav>
-    </header>
-    <main>
-      <section>
-        <h1 class="text-center">Categorias de Productos</h1>
-        <hr class="m-3" />
-        <div class="row d-flex justify-content-center">
-          <div class="card col-3" style="width: 18rem">
-            <img
-              src="./assets/img/IconoComputadora.png"
-              class="card-img-top"
-              alt="icono de computadora"
-            />
-            <div class="card-body">
-              <h5 class="card-title">Computadoras</h5>
-              <p class="card-text">
-                Las mejores ofertas de computadoras las encontras en PC-Ofertas.
-              </p>
-            </div>
-            <div class="card-body">
-              <a href="#" class="card-link">Ver Ofertas</a>
-            </div>
+        <div class="card col-3" style="width: 18rem">
+          <img src="./assets/img/IconoCelular.png" class="card-img-top" alt="icono de celular" />
+          <div class="card-body">
+            <h5 class="card-title">Celulares</h5>
+            <p class="card-text">
+              Las mejores ofertas de celulares las encontras en PC-Ofertas.
+            </p>
           </div>
-          <div class="card col-3" style="width: 18rem">
-            <img
-              src="./assets/img/IconoCelular.png"
-              class="card-img-top"
-              alt="icono de celular"
-            />
-            <div class="card-body">
-              <h5 class="card-title">Celulares</h5>
-              <p class="card-text">
-                Las mejores ofertas de celulares las encontras en PC-Ofertas.
-              </p>
-            </div>
-            <div class="card-body">
-              <a href="#" class="card-link">Ver Ofertas</a>
-            </div>
-          </div>
-          <div class="card col-3" style="width: 18rem">
-            <img
-              src="./assets/img/IconoImpresora.png"
-              class="card-img-top"
-              alt="icono de impresora"
-            />
-            <div class="card-body">
-              <h5 class="card-title">Celulares</h5>
-              <p class="card-text">
-                Las mejores ofertas de impresoras las encontras en PC-Ofertas.
-              </p>
-            </div>
-            <div class="card-body">
-              <a href="#" class="card-link">Ver Ofertas</a>
-            </div>
-          </div>
-          <div class="card col-3" style="width: 18rem">
-            <img
-              src="./assets/img/IconoSilla.png"
-              class="card-img-top"
-              alt="icono de silla"
-            />
-            <div class="card-body">
-              <h5 class="card-title">Celulares</h5>
-              <p class="card-text">
-                Las mejores ofertas de sillas gamer las encontras en PC-Ofertas.
-              </p>
-            </div>
-            <div class="card-body">
-              <a href="#" class="card-link">Ver Ofertas</a>
-            </div>
+          <div class="card-body">
+            <a href="#" class="card-link">Ver Ofertas</a>
           </div>
         </div>
-      </section>
-    </main>
-    <footer>
-      <article>
-        <div>
-          <a>Volver a inicio.</a>
+        <div class="card col-3" style="width: 18rem">
+          <img src="./assets/img/IconoImpresora.png" class="card-img-top" alt="icono de impresora" />
+          <div class="card-body">
+            <h5 class="card-title">Celulares</h5>
+            <p class="card-text">
+              Las mejores ofertas de impresoras las encontras en PC-Ofertas.
+            </p>
+          </div>
+          <div class="card-body">
+            <a href="#" class="card-link">Ver Ofertas</a>
+          </div>
         </div>
-        <div>
-          <a href="" target="_blank">Facebook</a>
-          <a href="" target="_blank">X</a>
-          <a href="" target="_blank">Intagram</a>
+        <div class="card col-3" style="width: 18rem">
+          <img src="./assets/img/IconoSilla.png" class="card-img-top" alt="icono de silla" />
+          <div class="card-body">
+            <h5 class="card-title">Celulares</h5>
+            <p class="card-text">
+              Las mejores ofertas de sillas gamer las encontras en PC-Ofertas.
+            </p>
+          </div>
+          <div class="card-body">
+            <a href="#" class="card-link">Ver Ofertas</a>
+          </div>
         </div>
-      </article>
-    </footer>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#logo">Volver a inicio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#" target="_blank">Facebook</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" target="_blank">X</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true" target="_blank">Instagram</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
